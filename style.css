@@ -1,0 +1,73 @@
+h1{
+    color: #000042;
+
+}
+
+.header{
+    background-color: rgb(205, 168, 240);
+    display: flex;
+    justify-content: space-around;
+}
+
+.header a{
+    color: #000080;
+    margin-top: 20px;
+   display: inline-block;
+}
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    background-color: #ffa07a;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.footer a{
+    margin-left: 5px;
+    display: inline-block;
+}
+
+body{
+    background-color: #ffc7e3;
+}
+
+.item p{
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    opacity: 0;
+}
+
+a:link {
+ color: darkblue;
+}
+
+a:visited {
+  color: darkslateblue;
+}
+
+.item {
+    position: relative;
+
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.header:hover h1 {
+    color: darkviolet;
+}
+
+.header a:hover {
+      margin-top: 10px;
+}
